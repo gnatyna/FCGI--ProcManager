@@ -1,0 +1,8 @@
+141a142
+>  pm_title => 'perl-fcgi-pm'
+152a154
+> 	      pm_title => 'perl-fcgi-pm',
+279c281
+<   $this->pm_change_process_name("perl-fcgi-pm");
+---
+>   $this->pm_change_process_name($this->pm_parameter('pm_title'));
